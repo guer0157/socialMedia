@@ -1,3 +1,6 @@
+body{
+    width: 100vhm;
+}
 img{
     width: 50px;
     float:left;
@@ -12,4 +15,14 @@ img{
     padding-top: 10px;
     padding-left: 8px;
     border-radius: 50px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 300px;
+}
+#btn{
+    position: relative;
+}
+#btn:hover{
+    transform: translateY(-10px);
+    height: 
 }
