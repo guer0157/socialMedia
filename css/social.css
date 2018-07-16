@@ -1,14 +1,13 @@
 body{
-    width: 100vhm;
+    width: 40vhm;
 }
 img{
-    width: 50px;
-    float:left;
-    padding-left: 1px;
+    position: absolute;
+    float: left;
 }
 #bar{
     height: 60px;
-    border: solid 1px grey;
+
     width: 160px;
     margin-left: 5px;
     margin-right: 5px;
@@ -19,10 +18,23 @@ img{
     margin-left: 500px;
     margin-top: 300px;
 }
-#btn{
+.btn {
     position: relative;
+     box-shadow: 20px 10px 30px rgba(0,0,0,.5);
+    
+    
 }
-#btn:hover{
+.btn:hover {
     transform: translateY(-10px);
-    height: 
+    z-index: 3;
+   
+
+}
+
+#linked{
+    height: 130px;
+    left: 121px;
+}
+#fbook{
+    right:123px;
 }
