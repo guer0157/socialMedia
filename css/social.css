@@ -1,40 +1,18 @@
-body{
-    width: 40vhm;
-}
-img{
-    position: absolute;
-    float: left;
-}
 #bar{
-    height: 60px;
-
-    width: 160px;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-top: 10px;
-    padding-left: 8px;
-    border-radius: 50px;
-    position: absolute;
-    margin-left: 500px;
-    margin-top: 300px;
+    margin-top:70px;
+    margin-left: 30px;
+    height: 150px;
+    width: 150px;
 }
-.btn {
-    position: relative;
-     box-shadow: 20px 10px 30px rgba(0,0,0,.5);
-    
-    
-}
-.btn:hover {
-    transform: translateY(-10px);
-    z-index: 3;
-   
-
-}
-
 #linked{
-    height: 130px;
-    left: 121px;
+    width: 40px;
 }
-#fbook{
-    right:123px;
+a{
+    float: left;
+    width:50px;
+}
+
+.btn:hover {
+    transform: translateY(-100px);
+    z-index: 3;
 }
