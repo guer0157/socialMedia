@@ -1,18 +1,16 @@
-#bar{
-    margin-top:70px;
-    margin-left: 30px;
-    height: 150px;
-    width: 150px;
-}
-#linked{
-    width: 40px;
-}
-a{
-    float: left;
+.btn{
     width:50px;
+    float: left;
+    position: relative;
 }
-
+#link{
+    position: absolute;
+    width: 39.5px;
+    left: 95px;
+    top: px;
+    
+}
 .btn:hover {
-    transform: translateY(-100px);
+    transform: translateY(-10px);
     z-index: 3;
 }
