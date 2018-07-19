@@ -5,14 +5,18 @@
 }
 #link{
     position: absolute;
-    width: 39.5px;
-    left: 83px;    
+    width: 39px;
+    left: 84px;
 }
 .btn:hover {
     transform: translateY(-10px);
-    z-index: 3;
+    z-index: 5;
 }
 #twit{
     position: absolute;
     left:46px;
+    z-index: 1;
+}
+#facebook{
+    z-index: 2;
 }
