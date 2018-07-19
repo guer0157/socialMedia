@@ -6,11 +6,13 @@
 #link{
     position: absolute;
     width: 39.5px;
-    left: 95px;
-    top: px;
-    
+    left: 83px;    
 }
 .btn:hover {
     transform: translateY(-10px);
     z-index: 3;
+}
+#twit{
+    position: absolute;
+    left:46px;
 }
