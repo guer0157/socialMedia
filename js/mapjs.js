@@ -27,8 +27,6 @@ let page={
         page.moveLens(ev);
     },
     addBox: function(){
-        //Hide the result div;
-        page.result.classList.add("hide");
         //create event listern on mouse move;
         document.addEventListener("mousemove",page.init);
 

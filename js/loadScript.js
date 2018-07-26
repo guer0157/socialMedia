@@ -1,6 +1,8 @@
 function includesJs(){
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
- console.log("script disabled");   
+   //Hide the result div;
+    let result=document.getElementById("zoom"),
+        result.classList.add("hide");
 }else{
     page.addBox();
 }
